@@ -13,7 +13,7 @@ def question_1():
     d) Collection
     """
     # Return the correct value.
-    pass
+    B
 
 
 # Question 2
@@ -31,7 +31,7 @@ def question_2():
     e) "hello world"
     """
     # Return the correct value.
-    pass
+    False
 
 
 # Question 3
@@ -46,7 +46,10 @@ def remove_Es(a_string):
     remove_Es('abc')      # 'abc'
     """
     # Write your code here
-    pass
+    def remove_Es(a_string)
+        if a_string == type(str):
+            return strip
+      
 
 
 # Question 4
@@ -63,7 +66,7 @@ def question_4():
     result = a_list[3**2 - 8] + a_list[-1] + a_tuple[2]
     """
     # Return the correct value.
-    pass
+    23
 
 
 # Question 5
@@ -94,7 +97,16 @@ def calculate_tax(income):
     calculate_tax(income)  # $210,000 * 0.35 = 73500 = $73,500
     """
     # Write your code here
-    pass
+    def calculate_tax(income):
+        if income <= 50000:
+            tax_amount = (income*0.15)
+        elif income <=75000:
+            tax_amount = (income*0.25)
+        elif income <= 100000:
+            tax_amount = (income*0.30)
+        elif income > 100000:
+            tax_amount = (income*0.35)
+    return tax_amount
 
 
 # Question 6
@@ -118,4 +130,10 @@ def matrix_sum(a_matrix):
     matrix_sum(m2)  # 198
     """
     # Write your code here
-    pass
+    def matrix_sum(a_matrix):
+        sum = []
+        for x in a_matrix: 
+            if x == type(int):
+                sum += x
+        return sum
+            
